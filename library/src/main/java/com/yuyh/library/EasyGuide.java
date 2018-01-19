@@ -120,7 +120,7 @@ public class EasyGuide {
             tvConfirm.setText(mConfirm.text);
             tvConfirm.setTextColor(Color.WHITE);
             tvConfirm.setTextSize(mConfirm.textSize == -1 ? 13 : mConfirm.textSize);
-            tvConfirm.setBackgroundResource(R.drawable.btn_selector);
+            tvConfirm.setBackgroundResource(R.drawable.guide_btn_selector);
             LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(WRAP_CONTENT, WRAP_CONTENT);
             params.topMargin = dip2px(mActivity, 10);
             tvConfirm.setLayoutParams(params);
